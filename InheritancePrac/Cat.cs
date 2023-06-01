@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace InheritancePrac
 {
-    public class Cat : Animal
+    public abstract class Cat : Animal
     {
         public Cat() { }
 
