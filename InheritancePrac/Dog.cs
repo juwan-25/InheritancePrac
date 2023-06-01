@@ -14,6 +14,10 @@ namespace InheritancePrac
         {
             Console.WriteLine("왈왈 짓습니다");
         }
+        public new void Eat()
+        {
+            Console.WriteLine("허겁지겁 먹습니다.");
+        }
 
         public void TestB()
         {
