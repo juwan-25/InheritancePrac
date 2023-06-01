@@ -20,6 +20,15 @@ namespace InheritancePrac
             Console.WriteLine("쿨쿨 잡니다");
         }
 
+        private void Private() { }
+        protected void Protected() { }
+        public void Public() { }
 
+        public void TestA()
+        {
+            Private();
+            Protected();
+            Public();
+        }
     }
 }
