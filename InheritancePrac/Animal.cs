@@ -5,7 +5,7 @@ namespace InheritancePrac
     {
         public int Age { get; set; }
 
-        Animal() 
+        public Animal() 
         { 
             this.Age = 0;
         }
