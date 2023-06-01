@@ -6,6 +6,10 @@ namespace InheritancePrac
     {
         public string Color { get; set; }
 
+        public Dog() {}
+
+        public Dog(int age) : base(age) {}
+
         public void Bark()
         {
             Console.WriteLine("왈왈 짓습니다");

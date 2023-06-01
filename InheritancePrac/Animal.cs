@@ -10,6 +10,11 @@ namespace InheritancePrac
             this.Age = 0;
         }
 
+        public Animal(int age)
+        {
+            this.Age = age;
+        }
+
         public void Eat()
         {
             Console.WriteLine("냠냠 먹습니다");
